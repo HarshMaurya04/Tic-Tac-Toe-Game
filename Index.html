@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Tic Tac Toe</h1>
+      <div class="mark">
+        (
+        <i class="fa-solid fa-x"></i>
+        &
+        <i class="fa-regular fa-circle"></i>
+        )
+      </div>
+    </header>
+
+    <main>
+      <h2 class="line1">Let's Play</h2>
+
+      <div class="container">
+        <div class="msg-container hide">
+          <h2>Winner</h2>
+          <p id="msg">X / O is the Winner</p>
+          <button id="new-btn">New Game</button>
+        </div>
+
+        <div class="game">
+          <button class="block-0"></button>
+          <button class="block-1"></button>
+          <button class="block-2"></button>
+          <button class="block-3"></button>
+          <button class="block-4"></button>
+          <button class="block-5"></button>
+          <button class="block-6"></button>
+          <button class="block-7"></button>
+          <button class="block-8"></button>
+        </div>
+      </div>
+      <button class="reset-btn hide2">Reset Game</button>
+    </main>
+    <script src="App.js"></script>
+  </body>
+</html>
